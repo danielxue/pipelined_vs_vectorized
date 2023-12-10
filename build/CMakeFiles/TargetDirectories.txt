@@ -1,0 +1,5 @@
+/home/danielx/Documents/homework/cis6500/pipelined_vs_vectorized/build/CMakeFiles/pipelined_executor.dir
+/home/danielx/Documents/homework/cis6500/pipelined_vs_vectorized/build/CMakeFiles/vectorized_executor.dir
+/home/danielx/Documents/homework/cis6500/pipelined_vs_vectorized/build/CMakeFiles/vectorized_executor_no_simd.dir
+/home/danielx/Documents/homework/cis6500/pipelined_vs_vectorized/build/CMakeFiles/edit_cache.dir
+/home/danielx/Documents/homework/cis6500/pipelined_vs_vectorized/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,300 @@
+number of predicates: 1; pipelined
+# started on Sat Dec  9 23:28:39 2023
+
+98320		branch-misses:u	1469110	100.00	5.06	of all branches
+1942671		branch-instructions:u	1468008	100.00		
+8972		cache-misses:u	1468488	100.00	6.04	of all cache refs
+148624		cache-references:u	1468859	100.00		
+4940350		instructions:u	1467887	100.00	0.97	insn per cycle
+5069506		cpu-cycles:u	1466464	100.00		
+
+number of predicates: 1; vectorized
+# started on Sat Dec  9 23:28:39 2023
+
+0		branch-misses:u	31508	100.00		
+0		branch-instructions:u	30265	100.00		
+0		cache-misses:u	30717	100.00		
+0		cache-references:u	30387	100.00		
+0		instructions:u	29475	100.00		
+0		cpu-cycles:u	28123	100.00		
+
+number of predicates: 1; vectorized no simd
+# started on Sat Dec  9 23:28:40 2023
+
+262		branch-misses:u	1013856	100.00	0.03	of all branches
+916996		branch-instructions:u	1013586	100.00		
+5241		cache-misses:u	1013897	100.00	3.86	of all cache refs
+135869		cache-references:u	1013706	100.00		
+4552792		instructions:u	1013175	100.00	2.31	insn per cycle
+1975028		cpu-cycles:u	1011923	100.00		
+
+number of predicates: 2; pipelined
+# started on Sat Dec  9 23:28:59 2023
+
+107331		branch-misses:u	1290696	100.00	5.34	of all branches
+2009079		branch-instructions:u	1290115	100.00		
+2843		cache-misses:u	1290195	100.00	1.10	of all cache refs
+258179		cache-references:u	1290245	100.00		
+5064520		instructions:u	1289683	100.00	1.14	insn per cycle
+4438989		cpu-cycles:u	1288140	100.00		
+
+number of predicates: 2; vectorized
+# started on Sat Dec  9 23:28:59 2023
+
+455		branch-misses:u	746356	100.00	0.51	of all branches
+88615		branch-instructions:u	745624	100.00		
+8244		cache-misses:u	746085	100.00	2.52	of all cache refs
+326545		cache-references:u	745975	100.00		
+1824620		instructions:u	744843	100.00	1.17	insn per cycle
+1560194		cpu-cycles:u	743701	100.00		
+
+number of predicates: 2; vectorized no simd
+# started on Sat Dec  9 23:28:59 2023
+
+477		branch-misses:u	2038334	100.00	0.02	of all branches
+2849220		branch-instructions:u	2037562	100.00		
+5174		cache-misses:u	2037692	100.00	1.56	of all cache refs
+330752		cache-references:u	2037632	100.00		
+14216254		instructions:u	2036691	100.00	2.91	insn per cycle
+4882572		cpu-cycles:u	2035388	100.00		
+
+number of predicates: 3; pipelined
+# started on Sat Dec  9 23:29:18 2023
+
+109052		branch-misses:u	1414055	100.00	5.37	of all branches
+2031513		branch-instructions:u	1412883	100.00		
+12517		cache-misses:u	1413294	100.00	4.75	of all cache refs
+263259		cache-references:u	1413154	100.00		
+5213306		instructions:u	1412382	100.00	0.99	insn per cycle
+5249071		cpu-cycles:u	1411010	100.00		
+
+number of predicates: 3; vectorized
+# started on Sat Dec  9 23:29:18 2023
+
+471		branch-misses:u	971728	100.00	0.31	of all branches
+151382		branch-instructions:u	971308	100.00		
+8810		cache-misses:u	971378	100.00	1.61	of all cache refs
+546847		cache-references:u	971247	100.00		
+2927081		instructions:u	970385	100.00	1.14	insn per cycle
+2568015		cpu-cycles:u	969244	100.00		
+
+number of predicates: 3; vectorized no simd
+# started on Sat Dec  9 23:29:19 2023
+
+471		branch-misses:u	2376065	100.00	0.01	of all branches
+4897619		branch-instructions:u	2376106	100.00		
+8807		cache-misses:u	2376877	100.00	1.57	of all cache refs
+561042		cache-references:u	2376446	100.00		
+24458973		instructions:u	2375785	100.00	2.84	insn per cycle
+8603467		cpu-cycles:u	2373992	100.00		
+
+number of predicates: 4; pipelined
+# started on Sat Dec  9 23:29:37 2023
+
+106277		branch-misses:u	1447288	100.00	5.39	of all branches
+1973363		branch-instructions:u	1446607	100.00		
+15102		cache-misses:u	1446907	100.00	5.87	of all cache refs
+257357		cache-references:u	1446697	100.00		
+5064835		instructions:u	1445965	100.00	0.87	insn per cycle
+5847983		cpu-cycles:u	1443981	100.00		
+
+number of predicates: 4; vectorized
+# started on Sat Dec  9 23:29:38 2023
+
+486		branch-misses:u	1268003	100.00	0.23	of all branches
+214458		branch-instructions:u	1267501	100.00		
+12967		cache-misses:u	1267621	100.00	1.68	of all cache refs
+772507		cache-references:u	1267652	100.00		
+4039433		instructions:u	1266911	100.00	1.06	insn per cycle
+3815075		cpu-cycles:u	1265328	100.00		
+
+number of predicates: 4; vectorized no simd
+# started on Sat Dec  9 23:29:38 2023
+
+480		branch-misses:u	2526436	100.00	0.01	of all branches
+6868094		branch-instructions:u	2525373	100.00		
+9745		cache-misses:u	2525865	100.00	1.26	of all cache refs
+775826		cache-references:u	2525464	100.00		
+34313021		instructions:u	2524823	100.00	3.71	insn per cycle
+9247375		cpu-cycles:u	2523691	100.00		
+
+number of predicates: 5; pipelined
+# started on Sat Dec  9 23:29:57 2023
+
+109758		branch-misses:u	1635451	100.00	5.37	of all branches
+2043573		branch-instructions:u	1634679	100.00		
+13295		cache-misses:u	1635119	100.00	5.05	of all cache refs
+263468		cache-references:u	1635700	100.00		
+5244899		instructions:u	1636592	100.00	0.86	insn per cycle
+6128536		cpu-cycles:u	1638656	100.00		
+
+number of predicates: 5; vectorized
+# started on Sat Dec  9 23:29:57 2023
+
+498		branch-misses:u	1527868	100.00	0.18	of all branches
+276661		branch-instructions:u	1527788	100.00		
+23619		cache-misses:u	1528499	100.00	2.37	of all cache refs
+995072		cache-references:u	1528289	100.00		
+5125181		instructions:u	1527327	100.00	1.00	insn per cycle
+5135233		cpu-cycles:u	1525704	100.00		
+
+number of predicates: 5; vectorized no simd
+# started on Sat Dec  9 23:29:57 2023
+
+485		branch-misses:u	3762027	100.00	0.01	of all branches
+8863921		branch-instructions:u	3761716	100.00		
+11797		cache-misses:u	3761877	100.00	1.18	of all cache refs
+997191		cache-references:u	3761777	100.00		
+44297490		instructions:u	3761006	100.00	2.96	insn per cycle
+14975141		cpu-cycles:u	3760064	100.00		
+
+number of predicates: 6; pipelined
+# started on Sat Dec  9 23:30:17 2023
+
+110721		branch-misses:u	1773747	100.00	5.37	of all branches
+2060482		branch-instructions:u	1773227	100.00		
+12907		cache-misses:u	1773528	100.00	4.86	of all cache refs
+265517		cache-references:u	1773728	100.00		
+5292285		instructions:u	1772605	100.00	0.74	insn per cycle
+7184849		cpu-cycles:u	1770913	100.00		
+
+number of predicates: 6; vectorized
+# started on Sat Dec  9 23:30:17 2023
+
+477		branch-misses:u	1838149	100.00	0.14	of all branches
+339155		branch-instructions:u	1837879	100.00		
+18030		cache-misses:u	1838140	100.00	1.49	of all cache refs
+1210882		cache-references:u	1838471	100.00		
+6217330		instructions:u	1837939	100.00	0.94	insn per cycle
+6587153		cpu-cycles:u	1837057	100.00		
+
+number of predicates: 6; vectorized no simd
+# started on Sat Dec  9 23:30:17 2023
+
+493		branch-misses:u	3833001	100.00	0.00	of all branches
+10861175		branch-instructions:u	3833562	100.00		
+16623		cache-misses:u	3833893	100.00	1.36	of all cache refs
+1219777		cache-references:u	3834293	100.00		
+54278559		instructions:u	3833562	100.00	3.75	insn per cycle
+14476478		cpu-cycles:u	3831919	100.00		
+
+number of predicates: 7; pipelined
+# started on Sat Dec  9 23:30:36 2023
+
+96074		branch-misses:u	1582331	100.00	5.37	of all branches
+1788893		branch-instructions:u	1581058	100.00		
+11250		cache-misses:u	1581267	100.00	4.88	of all cache refs
+230326		cache-references:u	1580917	100.00		
+4596800		instructions:u	1579876	100.00	0.68	insn per cycle
+6742387		cpu-cycles:u	1578333	100.00		
+
+number of predicates: 7; vectorized
+# started on Sat Dec  9 23:30:37 2023
+
+529		branch-misses:u	2577844	100.00	0.13	of all branches
+403850		branch-instructions:u	2576521	100.00		
+28472		cache-misses:u	2576421	100.00	1.97	of all cache refs
+1443501		cache-references:u	2576331	100.00		
+7368753		instructions:u	2575329	100.00	0.79	insn per cycle
+9320911		cpu-cycles:u	2573935	100.00		
+
+number of predicates: 7; vectorized no simd
+# started on Sat Dec  9 23:30:37 2023
+
+421		branch-misses:u	5439166	100.00	0.00	of all branches
+12549144		branch-instructions:u	5440067	100.00		
+19396		cache-misses:u	5440438	100.00	1.39	of all cache refs
+1395349		cache-references:u	5440798	100.00		
+62724180		instructions:u	5440327	100.00	2.82	insn per cycle
+22213635		cpu-cycles:u	5439276	100.00		
+
+number of predicates: 8; pipelined
+# started on Sat Dec  9 23:30:56 2023
+
+110409		branch-misses:u	1814496	100.00	5.37	of all branches
+2055478		branch-instructions:u	1813053	100.00		
+12772		cache-misses:u	1813133	100.00	4.82	of all cache refs
+264881		cache-references:u	1812681	100.00		
+5279925		instructions:u	1811760	100.00	0.68	insn per cycle
+7744407		cpu-cycles:u	1810287	100.00		
+
+number of predicates: 8; vectorized
+# started on Sat Dec  9 23:30:57 2023
+
+523		branch-misses:u	2409559	100.00	0.11	of all branches
+464167		branch-instructions:u	2408356	100.00		
+27215		cache-misses:u	2407786	100.00	1.64	of all cache refs
+1655057		cache-references:u	2407475	100.00		
+8407160		instructions:u	2406633	100.00	0.95	insn per cycle
+8846289		cpu-cycles:u	2381867	100.00		
+
+number of predicates: 8; vectorized no simd
+# started on Sat Dec  9 23:30:57 2023
+
+512		branch-misses:u	4966851	100.00	0.00	of all branches
+14854627		branch-instructions:u	4968104	100.00		
+17589		cache-misses:u	4968705	100.00	1.06	of all cache refs
+1655742		cache-references:u	4968936	100.00		
+74238655		instructions:u	4968595	100.00	3.73	insn per cycle
+19899678		cpu-cycles:u	4967423	100.00		
+
+number of predicates: 9; pipelined
+# started on Sat Dec  9 23:31:16 2023
+
+110984		branch-misses:u	1889022	100.00	5.37	of all branches
+2067246		branch-instructions:u	1889454	100.00		
+13024		cache-misses:u	1890266	100.00	4.88	of all cache refs
+266699		cache-references:u	1890457	100.00		
+5311459		instructions:u	1889716	100.00	0.66	insn per cycle
+8103508		cpu-cycles:u	1888914	100.00		
+
+number of predicates: 9; vectorized
+# started on Sat Dec  9 23:31:16 2023
+
+560		branch-misses:u	2637024	100.00	0.11	of all branches
+527164		branch-instructions:u	2637194	100.00		
+42386		cache-misses:u	2637815	100.00	2.25	of all cache refs
+1883189		cache-references:u	2638266	100.00		
+9512089		instructions:u	2637575	100.00	0.95	insn per cycle
+9999210		cpu-cycles:u	2636653	100.00		
+
+number of predicates: 9; vectorized no simd
+# started on Sat Dec  9 23:31:17 2023
+
+511		branch-misses:u	6679045	100.00	0.00	of all branches
+16869139		branch-instructions:u	6678173	100.00		
+53869		cache-misses:u	6678604	100.00	2.85	of all cache refs
+1887730		cache-references:u	6678954	100.00		
+84318008		instructions:u	6678263	100.00	2.98	insn per cycle
+28315724		cpu-cycles:u	6677132	100.00		
+
+number of predicates: 10; pipelined
+# started on Sat Dec  9 23:31:36 2023
+
+110486		branch-misses:u	1864327	100.00	5.36	of all branches
+2060767		branch-instructions:u	1863956	100.00		
+12855		cache-misses:u	1864217	100.00	4.84	of all cache refs
+265602		cache-references:u	1864087	100.00		
+5294200		instructions:u	1863406	100.00	0.66	insn per cycle
+7975977		cpu-cycles:u	1862063	100.00		
+
+number of predicates: 10; vectorized
+# started on Sat Dec  9 23:31:36 2023
+
+553		branch-misses:u	2889276	100.00	0.09	of all branches
+588536		branch-instructions:u	2890407	100.00		
+28496		cache-misses:u	2890909	100.00	1.36	of all cache refs
+2091576		cache-references:u	2891600	100.00		
+10574539		instructions:u	2891009	100.00	0.96	insn per cycle
+10964497		cpu-cycles:u	2889777	100.00		
+
+number of predicates: 10; vectorized no simd
+# started on Sat Dec  9 23:31:37 2023
+
+525		branch-misses:u	5957898	100.00	0.00	of all branches
+18858366		branch-instructions:u	5958408	100.00		
+20326		cache-misses:u	5958688	100.00	0.97	of all cache refs
+2097177		cache-references:u	5959410	100.00		
+94265583		instructions:u	5958909	100.00	3.76	insn per cycle
+25080257		cpu-cycles:u	5957616	100.00		
+

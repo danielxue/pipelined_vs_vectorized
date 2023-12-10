@@ -1,0 +1,48 @@
+# started on Fri Dec  8 02:52:01 2023
+
+500		branch-misses:u	6225798	100.00	0.01	of all branches
+8863206		branch-instructions:u	6222377	100.00		
+11085		cache-misses:u	6223037	100.00	1.16	of all cache refs
+952701		cache-references:u	6222398	100.00		
+44280843		instructions:u	6220717	100.00	1.72	insn per cycle
+25703686		cpu-cycles:u	6218727	100.00		
+# started on Fri Dec  8 02:52:17 2023
+
+507		branch-misses:u	6538227	100.00	0.01	of all branches
+8922192		branch-instructions:u	6537917	100.00		
+25537		cache-misses:u	6537957	100.00	2.66	of all cache refs
+961125		cache-references:u	6537966	100.00		
+44573108		instructions:u	6536986	100.00	1.65	insn per cycle
+27089482		cpu-cycles:u	6535397	100.00		
+# started on Fri Dec  8 02:52:19 2023
+
+526		branch-misses:u	6605966	100.00	0.01	of all branches
+8967346		branch-instructions:u	6598674	100.00		
+25939		cache-misses:u	6598354	100.00	2.68	of all cache refs
+968810		cache-references:u	6598124	100.00		
+44791905		instructions:u	6595843	100.00	1.65	insn per cycle
+27078347		cpu-cycles:u	6593493	100.00		
+# started on Fri Dec  8 02:52:20 2023
+
+493		branch-misses:u	6598568	100.00	0.01	of all branches
+8928544		branch-instructions:u	6597898	100.00		
+24641		cache-misses:u	6598228	100.00	2.56	of all cache refs
+962249		cache-references:u	6597937	100.00		
+44603487		instructions:u	6597147	100.00	1.62	insn per cycle
+27458240		cpu-cycles:u	6595357	100.00		
+# started on Fri Dec  8 02:52:50 2023
+
+497		branch-misses:u	5509594	100.00	0.01	of all branches
+6929111		branch-instructions:u	5508794	100.00		
+24568		cache-misses:u	5508794	100.00	3.26	of all cache refs
+754260		cache-references:u	5508613	100.00		
+34601262		instructions:u	5508003	100.00	1.54	insn per cycle
+22442785		cpu-cycles:u	5506233	100.00		
+# started on Fri Dec  8 02:52:51 2023
+
+495		branch-misses:u	5095719	100.00	0.01	of all branches
+6958710		branch-instructions:u	5094870	100.00		
+12600		cache-misses:u	5095150	100.00	1.66	of all cache refs
+759311		cache-references:u	5094709	100.00		
+34765351		instructions:u	5094110	100.00	1.69	insn per cycle
+20566079		cpu-cycles:u	5092439	100.00		
