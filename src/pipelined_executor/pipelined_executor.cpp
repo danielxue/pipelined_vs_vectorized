@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
     parseArgs(argc, argv, ctl_fd, time);
 
     Store<PLE_DATA_TYPE> db {PLE_FILENAME};
-    vector<string> colNames = {"A", "B", "C", "D", "E"};
+    vector<string> colNames = {"A", "B", "C", "D", "E", "F", "G"};
     vector<vector<PLE_DATA_TYPE>> table = db.getColTable(colNames);
     Bitset res {db.numRows};
 
@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
     if (ctl_fd != -1) write(ctl_fd, "enable\n", 8);
 
     for (size_t i = 0; i < db.numRows; i++) {
-        if (table[0][i] < 99 && table[1][i] < 99 && table[2][i] < 99 && table[3][i] < 99 && table[4][i] < 99) {
+        if (table[0][i] < 50 && table[1][i] < 50 && table[2][i] < 50 && table[3][i] < 50 && table[4][i] < 50 && table[5][i] < 50 && table[6][i] < 50) {
            res[i] = true;
         }
     }

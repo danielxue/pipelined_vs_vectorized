@@ -1,6 +1,8 @@
 #ifndef PIPELINED_VS_VECTORIZED_BITSET_H
 #define PIPELINED_VS_VECTORIZED_BITSET_H
 
+#include <cstring>
+
 class Bitset {
 private:
     bool* data;

@@ -3,11 +3,10 @@
 
 #include <array>
 #include <fstream>
+#include <sstream>
 #include <string>
 #include <unordered_map>
 #include <vector>
-
-#include <boost/algorithm/string.hpp>
 
 using namespace std;
 
@@ -27,7 +26,11 @@ public:
 
         string colNamesStr;
         fin >> colNamesStr;
-        boost::split(colNames, colNamesStr, boost::is_any_of(","));
+        istringstream ss(colNamesStr);
+        string colName;
+        while (std::getline(ss, colName, ',')) {
+            colNames.push_back(colName);
+        }
 
         T curVal;
         for (string& colName : colNames) {

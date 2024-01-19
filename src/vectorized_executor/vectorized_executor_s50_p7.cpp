@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
     parseArgs(argc, argv, ctl_fd, time);
 
     Store<VE_DATA_TYPE> db {VE_FILENAME};
-    vector<string> colNames = {"A", "B", "C", "D", "E"};
+    vector<string> colNames = {"A", "B", "C", "D", "E", "F", "G"};
     vector<vector<VE_DATA_TYPE>> table = db.getColTable(colNames);
     Bitset res {db.numRows};
     Bitset cur {db.numRows};
@@ -27,22 +27,30 @@ int main(int argc, char* argv[]) {
     if (ctl_fd != -1) write(ctl_fd, "enable\n", 8);
 
     for (size_t i = 0; i < db.numRows; i++) {
-       res[i] = table[0][i] < 99;
+       res[i] = table[0][i] < 50;
     }
     for (size_t i = 0; i < db.numRows; i++) {
-       cur[i] = table[1][i] < 99;
-    }
-    res &= cur;
-    for (size_t i = 0; i < db.numRows; i++) {
-       cur[i] = table[2][i] < 99;
+       cur[i] = table[1][i] < 50;
     }
     res &= cur;
     for (size_t i = 0; i < db.numRows; i++) {
-       cur[i] = table[3][i] < 99;
+       cur[i] = table[2][i] < 50;
     }
     res &= cur;
     for (size_t i = 0; i < db.numRows; i++) {
-       cur[i] = table[4][i] < 99;
+       cur[i] = table[3][i] < 50;
+    }
+    res &= cur;
+    for (size_t i = 0; i < db.numRows; i++) {
+       cur[i] = table[4][i] < 50;
+    }
+    res &= cur;
+    for (size_t i = 0; i < db.numRows; i++) {
+       cur[i] = table[5][i] < 50;
+    }
+    res &= cur;
+    for (size_t i = 0; i < db.numRows; i++) {
+       cur[i] = table[6][i] < 50;
     }
     res &= cur;
 

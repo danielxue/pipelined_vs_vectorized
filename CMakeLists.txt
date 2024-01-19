@@ -3,8 +3,8 @@ project(pipelined_vs_vectorized)
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(Boost COMPONENTS program_options REQUIRED)
-include_directories(${Boost_INCLUDE_DIR})
+#find_package(Boost COMPONENTS program_options REQUIRED)
+#include_directories(${Boost_INCLUDE_DIR})
 
 file(GLOB HEADERS "src/common/*.h")
 add_executable(pipelined_executor src/pipelined_executor/pipelined_executor.cpp ${HEADERS})
